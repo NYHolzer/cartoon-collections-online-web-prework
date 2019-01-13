@@ -11,7 +11,7 @@ def summon_captain_planet (planeteer_calls)
 end
 
 def long_planeteer_calls (array)
-  x = array.select do |y|
+  x = array.select do |y|    #returns an array with only strings with more than 4 characters
     y.length > 4
   end
   
