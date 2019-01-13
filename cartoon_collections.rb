@@ -15,7 +15,7 @@ def long_planeteer_calls (array)
     y.length > 4
   end
   
-  if x.size > 0 
+  if x.size > 0             # if the array is empty then all string are shorter than 4
     return true 
   else 
     return false 
