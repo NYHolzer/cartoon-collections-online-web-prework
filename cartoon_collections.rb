@@ -24,7 +24,7 @@ end
 
 def find_the_cheese (food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  food.find do |type|
-    cheese_types.include? (type)
-  end
-end
+  food.find do |type|                  #find will return first element that is true
+    cheese_types.include? (type)       #array of cheese_types is compared against each element
+  end                                  #of food array. The first time include returns true will
+end                                    #return that element via find method.
