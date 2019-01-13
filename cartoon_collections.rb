@@ -14,7 +14,7 @@ def long_planeteer_calls (array)
   x = array.select do |y|
     y.length >= 4
   end
-  if x.size == 0 
+  if x.size > 0 
     return false 
   else 
     return false 
